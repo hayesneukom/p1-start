@@ -1,2 +1,66 @@
 Eric Jankowski ericjankowski@boisestate.edu
 Hayes Neukom hayesneukom@boisestate.edu
+   27  history
+   28  clear
+   29  module list
+   30  module avail
+   31  ls
+   32  python plot.py 
+   33  vim plot.py 
+   34* 
+   35* python plot.py 
+   36  vim plot.py MYFIRSTARGUMENT SECOND_ARG THIRD_ARG
+   37  python plot.py MYFIRSTARGUMENT SECOND_ARG THIRD_ARG
+   38  vim plot.py 
+   39  clear
+   40  python plot.py raw-data/Sp15_245L_sect-001_group-1_glass.raw 
+   41  vim plot.py 
+   42  ls -l
+   43  pwd
+   44  ls -la
+   45  ls .git
+   46  ls -l .git
+   47  ls -la .git
+   48  clear
+   49  ls -l .git
+   50  rm plot.py
+   51  ls
+   52  git log
+   53  git status
+   54  git checkout -- plot.py
+   55  ls
+   56  ls -l
+   57  vim plot.py 
+   58  git log
+   59  git status
+   60  vim contributors.txt 
+   61  cat contributors.txt 
+   62  ls
+   63  ls raw-data/
+   64  cat raw-data/Sp15_245L_sect-001_group-1_glass.raw 
+   65  cat head raw-data/Sp15_245L_sect-001_group-1_glass.raw 
+   66  clear
+   67  cat contributors.txt 
+   68  git status
+   69  git add contributors.txt
+   70  git status
+   71  git commit
+   72  git log
+   73  13.5/20
+   74  cat contributors.txt 
+   75  git checkout 790d contributors.txt
+   76  cat contributors.txt 
+   77  cat 0ff0d contributors.txt 
+   78  cat checkout -- contributors.txt 
+   79  cat checkout 0ff0df contributors.txt 
+   80  git log
+   81  git checkout 0ff0dfa249 contributors.txt
+   82  cat contributors.txt 
+   83  git checkout 790d contributors.txt
+   84  cat contributors.txt 
+   85  git log
+   86  git checkout 0ff0 contributors.txt
+   87  cat contributors.txt 
+   88  git push
+   89  history
+
