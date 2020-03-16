@@ -21,10 +21,6 @@ data = np.loadtxt(filename)   # Attempts to load filename into local variable da
 # Make sure to include axis labels and units!
 # plt.plot(xdata,ydata, arguments-to-make-plot-pretty)
 
-# I am now removing the old note and trying to turn this new
-# note into the pushed commit
-# let's try this again
-
 
 ## Part 2
 # Check to see if your code in part 1 will plot all of the files in raw-data/
