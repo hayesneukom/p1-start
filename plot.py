@@ -17,9 +17,15 @@ data2 = np.loadtxt(filename, skiprows = 43, delimiter = ',', usecols = (3))
 #   $ python plot.py raw-data/Sp15_245L_sect-001_group-1_glass.raw
 # at the command line.
 
-
-plt.plot(data1,data2, color = 'k', linestyle = '-', label = 'test')
+plt.plot(data1,data2, color = 'k', linestyle = '-', label = 'Stress vs. Strain')
 plt.legend(loc='best')
+plt.xlabel('Strain (MPa)')
+plt.ylabel('Stress (N)')
+
+plt.show()
+
+#plt.plot([1,2,3],[-1,-2,-3], color = 'k', linestyle = '-', label = 'test of tests')
+#plt.legend(loc = 'best')
 
 
 ## Part 1
