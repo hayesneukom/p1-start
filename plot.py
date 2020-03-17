@@ -2,16 +2,24 @@ import matplotlib.pyplot as plt
 import numpy as np
 import sys
 
+
 filename = sys.argv[1]        # Stores ARG1 in filename, as in: $ python plot.py ARG1 ARG2 
-data = np.loadtxt(filename)   # Attempts to load filename into local variable data.
+data1 = np.loadtxt(filename,skiprows= 43, delimiter = ',',usecols = (2))   # Attempts to load filename into local variable data.
+
+data2 = np.loadtxt(filename, skiprows = 43, delimiter = ',', usecols = (3))
+
 
 ## Part 0
 # Figure out what arguments to add to the loadtxt function call
 # so that numbers are loaded into the local function 'data'.
-# Hint: look for arguments like 'skiprows' and 'delimiter'
+# Hint: look for arguments like 'skiprows' and 'delimiter', skip row 0-32
 # Check by running:
 #   $ python plot.py raw-data/Sp15_245L_sect-001_group-1_glass.raw
 # at the command line.
+
+
+plt.plot(data1,data2, color = 'k', linestyle = '-', label = 'test')
+plt.legend(loc='best')
 
 
 ## Part 1
