@@ -1,5 +1,7 @@
 Eric Jankowski ericjankowski@boisestate.edu
-Hayes Neukom hayesneukom@boisestate.edu
+Hayes Neukom hayesneukom@u.boisestate.edu
+Carmen Wu carmenwu@u.boisestate.edu
+Bette Gouger bettegouger@u.boisestate.edu
    27  history
    28  clear
    29  module list
