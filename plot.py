@@ -5,7 +5,6 @@ import sys
 
 filename = sys.argv[1]        # Stores ARG1 in filename, as in: $ python plot.py ARG1 ARG2 
 datax = np.loadtxt(filename,skiprows= 33, delimiter = ',',usecols = (2))   # Attempts to load filename into local variable data.
-
 datay = np.loadtxt(filename, skiprows = 33, delimiter = ',', usecols = (3))
 
 
@@ -62,14 +61,21 @@ plt.title('Linear regression')
 plt.legend(loc = 'best', fontsize = 14)
 plt.grid();
 
-
-plt.show()
+plt.savefig('Out.png')
 
 ## Part 4
 # Modify your code to save your plots to a file and see if you can generate
 # plots and Young's moduli for all of the cleaned up files in your data 
 # directory. If you haven't already, this is a good time to add text to 
 # your .gitignore file so you're not committing the figures to your repository.
+
+run = datax[-1] - datax[0]
+rise = reg[-1] - reg[0]
+slope = str(int(rise/run)) + ' N/MPa'
+print(slope)
+
+
+
 
 
 
