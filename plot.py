@@ -22,7 +22,8 @@ plt.xlabel('Strain (MPa)')
 plt.ylabel('Stress (N)')
 plt.title('Engineering strain curve')
 
-plt.savefig('Out.png')
+plt.savefig('DataOut.png')
+
 
 
 ## Part 1
