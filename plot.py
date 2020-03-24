@@ -22,6 +22,9 @@ plt.xlabel('Strain (MPa)')
 plt.ylabel('Stress (N)')
 plt.title('Engineering strain curve')
 
+plt.savefig('Out.png')
+
+
 ## Part 1
 # Figure out what columns and rows of data we need to plot
 # Stress (y-axis) vs Strain (x-axis)
