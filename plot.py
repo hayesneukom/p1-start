@@ -22,7 +22,7 @@ plt.xlabel('Strain (MPa)')
 plt.ylabel('Stress (N)')
 plt.title('Engineering strain curve')
 
-plt.savefig('DataOut.png')
+plt.savefig('Slope.png')
 
 
 
@@ -65,7 +65,7 @@ plt.title('Linear regression')
 plt.legend(loc = 'best', fontsize = 14)
 plt.grid();
 
-plt.savefig('Out.png')
+plt.savefig('Tredline.png')
 
 ## Part 4
 # Modify your code to save your plots to a file and see if you can generate
