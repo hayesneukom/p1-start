@@ -15,4 +15,5 @@ In this program I learned a lot about committing in bash, how to do it, what it 
 this project I also learned about editing text files when I was trying to take portions of the raw text files and cut
 them into a new text file in order to split up the data. Trying to figure out how to edit the text files in a way that
 would make the program run was the hardest part for me but when I figured out how do copy the file and then delete
-mass portions of it that solved the problem.
+mass portions of it that solved the problem. I would consider the moment when I figured out how to edit the data files
+as an "Aha!" moment.
