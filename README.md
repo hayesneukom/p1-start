@@ -9,7 +9,10 @@ onto the local machine. It will ask a few permission questions and you will have
 Python onto the local machine. 
 
 In order to run the program you must be in the directory that holds the program. Once inside the directory
-you must type "python plot.py " + the path to the data file that you want to run the program on.
+you must type "python plot.py " + the path to the data file that you want to run the program on. On this repository
+the files that will work on this program are located in the directory '2raw-data.' They are each called by the name
+of the type of material tested followed by an integer if there are multiple samples. If there are not multiple 
+samples it is just the name of the material .raw. The data stored in 'data-raw' will not work on this program.
 
 In this program I learned a lot about committing in bash, how to do it, what it does and the importance of it. During
 this project I also learned about editing text files when I was trying to take portions of the raw text files and cut
